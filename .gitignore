@@ -1,0 +1,36 @@
+# Python Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE and editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Data and Output Files/Directories
+# Ignore the entire outputs directory
+outputs/
+# Ignore specific data files you might generate
+simulated_eeg_multivariate_dataset.csv
+*.csv
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Notebook checkpoints
+.ipynb_checkpoints
+
+# Build artifacts
+build/
+dist/
+*.egg-info/

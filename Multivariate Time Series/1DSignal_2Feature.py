@@ -5,7 +5,7 @@ import pandas as pd
 SAMPLING_RATE = 256  # Hz
 DURATION = 10  # seconds
 N_TIME_STEPS = SAMPLING_RATE * DURATION
-N_SUBJECTS_PER_CLASS = 50 # Number of subjects to generate for each class
+N_SUBJECTS_PER_CLASS = 250 # Number of subjects to generate for each class
 
 # --- 1. Baseline EEG Signal Generation ---
 def generate_baseline_eeg(n_steps=N_TIME_STEPS, fs=SAMPLING_RATE):
@@ -178,6 +178,6 @@ if __name__ == "__main__":
     print("\nValue Counts for Classes:")
     print(simulated_eeg_data.drop_duplicates('subject_id')['class'].value_counts())
     
-    output_filename = "outputs/simulated_eeg_multivariate_dataset.csv"
+    output_filename = "data/simulated_eeg_multivariate_dataset.csv"
     simulated_eeg_data.to_csv(output_filename, index=False)
     print(f"\nDataset saved to '{output_filename}'")

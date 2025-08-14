@@ -1,8 +1,8 @@
 import pdfplumber
 
 # 1. Define the input PDF and the output text file
-pdf_path = '/Users/craig/Downloads/Software_Design_in_Python_v5_MEAP.pdf'
-output_txt_path = 'PDF TO TEXT/text_files/powerful_python.txt'
+pdf_path = '/Users/craig/Downloads/Understanding-Digital-Signal-Processing.pdf'
+output_txt_path = 'PDF TO TEXT/text_files/Understanding_Digital_Signal_Processing.txt'
 
 # 2. Open the PDF and extract text page by page
 full_text = ""

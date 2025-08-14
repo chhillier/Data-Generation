@@ -1,8 +1,8 @@
 import pdfplumber
 
 # 1. Define the input PDF and the output text file
-pdf_path = '/Users/craig/Downloads/Understanding-Digital-Signal-Processing.pdf'
-output_txt_path = 'PDF TO TEXT/text_files/Understanding_Digital_Signal_Processing.txt'
+pdf_path = '/Users/craig/Downloads/Mathematical-Statistics-and-Data-Analysis.pdf'
+output_txt_path = 'PDF TO TEXT/text_files/Mathematical-Statistics-and-Data-Analysis.txt'
 
 # 2. Open the PDF and extract text page by page
 full_text = ""
